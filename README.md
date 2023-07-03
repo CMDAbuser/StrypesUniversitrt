@@ -1,0 +1,2 @@
+# StrypesUniversitrt
+Proekti za uni
