@@ -1,11 +1,11 @@
-def contains_number(number, digit):
-    counter = 0
-    for i in number:
-        if i == digit: counter= counter+1
-        else:pass
+def contains_digit(number, digit):
 
-    if counter>0: return True
-    else: False
+    numb= str(number)
+    
+    for dig in numb:
+        
+        if int(dig) == digit:
+            return True
+    return False
 
-
-print(contains_number(123, 2))
+print(contains_digit(123, 5))
